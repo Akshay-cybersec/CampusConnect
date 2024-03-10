@@ -1,5 +1,6 @@
+ignore this file
 telegram
-https://api.telegram.org/bot6926341079:AAGCvn15z1ZAZY-lSMKsVUohdXKFdcBh004/getUpdates
+https://api.telegram.org/<token>/getUpdates
 
 group campusconnect
 -4139076718
