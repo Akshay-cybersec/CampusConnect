@@ -4,12 +4,12 @@
     "slug": "CampusConnect",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./images/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./images/applogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0C353C"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -17,14 +17,25 @@
     "ios": {
       "supportsTablet": true
     },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-build-properties"
+    ],
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./images/applogo.png",
+        "backgroundColor": "#0C353C"
+      },
+      "package": "com.akshaycybersec.CampusConnect"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./images/applogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "91c65081-af6a-47dc-9228-0a72efafae7b"
+      }
     }
   }
 }
