@@ -8,8 +8,8 @@ const adddata = async () => {
             body: JSON.stringify({
                 "name": "test test",
                 "roll_no": "1809",
-                "enr_no": "2100930094",
-                "phno": "7208151141",
+                "enr_no": "2837726335",
+                "phno": "9283726273",
                 "parents_phno": "9828237278",
                 "addr": "test address is here (Akshay 1234)",
                 "branch": "TYCO1",
